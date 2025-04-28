@@ -41,13 +41,12 @@ h1, h2 {
 
 
 .profile-photo {
-  width: 250px;
+  width: 180px;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
-  border-radius: 10px; /* 如果想要圆角矩形效果 */
 }
 
 
