@@ -41,10 +41,10 @@ h1, h2 {
 }
 
 .profile-photo-large {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 50%;
+  width: auto; /* 自动适应图片大小 */
+  height: 300px; /* 你可以自己调整高度 */
+  object-fit: contain; /* 保持原比例完整显示 */
+  border-radius: 0; /* 不裁剪成圆形 */
   margin-bottom: 20px;
 }
 
