@@ -40,9 +40,14 @@ nav ul li a:hover {
   text-align: left;
 }
 
-.research-item {
-  margin-bottom: 20px;
+.research-item a {
+  display: inline-block;
+  color: #0066cc;
+  font-weight: bold;
+  font-size: 1.1em;
+  text-decoration: underline;
 }
+
 
 .wechat-review .research-item {
   margin-bottom: 15px;
