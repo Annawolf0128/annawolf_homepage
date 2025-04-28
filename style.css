@@ -34,6 +34,14 @@ a {
 }
 
 
+img.profile-photo {
+  width: 180px; /* 照片宽度你可以根据需要调整，比如200px */
+  height: auto; /* 保持比例 */
+  border-radius: 15px; /* 圆角，数值越大越圆润 */
+  display: block; /* 让它更好地居中或控制布局 */
+  margin: 20px auto; /* 居中，并加点上下间距 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 可选，加一点阴影更立体 */
+}
 
 
 
