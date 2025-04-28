@@ -38,6 +38,30 @@ h1, h2 {
   margin-top: 40px;
 }
 
+
+.profile-photo {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 10px; /* 如果想要圆角矩形效果 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .research-item {
   margin-bottom: 20px;
 }
