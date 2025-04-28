@@ -51,17 +51,6 @@ h1, h2 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 .research-item {
   margin-bottom: 20px;
 }
@@ -81,3 +70,17 @@ h1, h2 {
   font-size: 0.9em;
   color: #555;
 }
+
+
+.content, .intro, .resource-item, .ml-content, .english-content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: left;
+}
+
+
+
+
+
+
