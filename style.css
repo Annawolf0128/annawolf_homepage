@@ -1,0 +1,53 @@
+body, .content, .intro, .resource-item, .wechat-review, .wechat-info, p, h1, h2, h3, a {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #f9f0f0;
+  margin: 0;
+  padding: 0 20px;
+}
+
+nav {
+  background-color: #333;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.content, .intro, .resource-item, .wechat-review, .wechat-info {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.research-item {
+  margin-bottom: 20px;
+}
+
+.wechat-review .research-item {
+  margin-bottom: 15px;
+}
+
+.wechat-info p {
+  margin-bottom: 10px;
+}
