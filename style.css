@@ -97,3 +97,30 @@ nav ul li a:hover {
 .wechat-info p {
   margin-bottom: 10px;
 }
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.image-box {
+  width: 250px;
+  text-align: center;
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.caption {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
