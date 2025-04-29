@@ -76,4 +76,17 @@ nav ul li a:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 轻微阴影 */
 }
 
+.link-item {
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+.link-item a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.link-item a:hover {
+  text-decoration: underline;
+}
 
