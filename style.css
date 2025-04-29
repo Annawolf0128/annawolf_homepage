@@ -90,3 +90,28 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* 控制两张图之间的间距 */
+  flex-wrap: wrap; /* 屏幕小的时候自动换行 */
+  margin-top: 20px;
+}
+
+.image-box {
+  width: 180px; /* 控制图片盒子的最大宽度 */
+  text-align: center;
+}
+
+.image-box img {
+  width: 100%;         /* 图片宽度适应盒子 */
+  height: auto;
+  border-radius: 12px; /* 圆角 */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* 可选：阴影 */
+}
+
+.caption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+}
