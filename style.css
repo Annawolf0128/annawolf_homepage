@@ -5,46 +5,37 @@ body, .content, .intro, .resource-item, .wechat-review, .wechat-info, p, a {
   padding: 0 20px;
 }
 
-/* 为标题添加明确的颜色和间距 */
 h1, h2, h3 {
-  color: #333; /* 深灰色文字 */
-  margin: 20px 0 15px; /* 上下间距 */
-  padding: 0; /* 重置padding */
+  color: #333;
+  margin: 20px 0 15px;
+  padding: 0;
 }
 
-/* 如果需要更醒目的标题 */
 h1 {
-  color: #8b0000; /* 深红色 */
+  color: #8b0000;
   font-size: 2.2em;
   text-align: center;
   margin: 30px 0;
 }
 
-/* 确保链接在粉色背景上可见 */
 a {
-  color: #0066cc !important; /* 保持蓝色 */
+  color: #0066cc !important;
+  text-decoration: none;
 }
 
-/* 可选：为内容区域添加白色背景增强可读性 */
-.content, .intro {
+a:hover {
+  text-decoration: underline;
+}
+
+.content {
   background-color: white;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: left;
 }
-
-
-img.profile-photo {
-  width: 180px; /* 照片宽度你可以根据需要调整，比如200px */
-  height: auto; /* 保持比例 */
-  border-radius: 15px; /* 圆角，数值越大越圆润 */
-  display: block; /* 让它更好地居中或控制布局 */
-  margin: 20px auto; /* 居中，并加点上下间距 */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 可选，加一点阴影更立体 */
-}
-
-
-
 
 nav {
   background-color: #333;
@@ -73,54 +64,3 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
-
-.content, .intro, .resource-item, .wechat-review, .wechat-info {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 0 20px;
-  text-align: left;
-}
-
-.research-item a {
-  display: inline-block;
-  color: #0066cc;
-  font-weight: bold;
-  font-size: 1.1em;
-  text-decoration: underline;
-}
-
-
-.wechat-review .research-item {
-  margin-bottom: 15px;
-}
-
-.wechat-info p {
-  margin-bottom: 10px;
-}
-
-.image-row {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap;
-  margin-top: 30px;
-}
-
-.image-box {
-  width: 250px;
-  text-align: center;
-}
-
-.image-box img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.caption {
-  margin-top: 10px;
-  font-size: 14px;
-  color: #555;
-}
-
