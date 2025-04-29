@@ -64,3 +64,16 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
+
+
+.profile-photo {
+  width: 30vw;            /* 占页面宽度的 30% */
+  max-width: 300px;       /* 最大宽度为 300px，不会太大 */
+  height: auto;
+  border-radius: 15px;    /* 圆角效果 */
+  display: block;
+  margin: 20px auto;      /* 上下 20px，左右居中 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 轻微阴影 */
+}
+
+
