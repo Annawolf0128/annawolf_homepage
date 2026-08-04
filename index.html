@@ -2,45 +2,67 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Xiaomeng Chen - Home</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Xiaomeng Chen — researcher in behavioral and experimental economics, AI, and organisational economics.">
+  <title>Xiaomeng Chen — Researcher</title>
+  <link rel="stylesheet" href="style.css?v=6">
+  <script defer src="site.js?v=2"></script>
   <!-- Google tag (gtag.js) -->
- <script async src="https://www.googletagmanager.com/gtag/js?id=G-JNWXEZYZHF"></script>
- <script>
-   window.dataLayer = window.dataLayer || [];
-   function gtag(){dataLayer.push(arguments);}
-   gtag('js', new Date());
-
-   gtag('config', 'G-JNWXEZYZHF');
- </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JNWXEZYZHF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-JNWXEZYZHF');
+  </script>
 </head>
-
 <body>
-<nav>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="research.html">Research</a></li>
-    <li><a href="contact.html">CV</a></li>
-     <li><a href="media.html">Media</a></li>
-    <li><a href="resources.html">Resources</a></li>
-    <li><a href="about.html">Others</a></li>
-  </ul>
-</nav>
+  <nav aria-label="Main navigation">
+    <a class="nav-brand" href="index.html">Xiaomeng <span>Chen</span></a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="contact.html">CV</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="about.html">Others</a></li>
+    </ul>
+  </nav>
 
-<section class="intro">
-  <img src="la.png" alt="Xiaomeng Chen" class="profile-photo">
-  <h1>Xiaomeng Chen</h1>
+  <main class="hero">
+    <div class="hero-copy">
+      <div class="eyebrow">Researcher</div>
+      <h1>Xiaomeng<br>Chen</h1>
+      <p class="hero-lede">I study how people make decisions and interact within organisations — and how incentives and artificial intelligence reshape the way we work together.</p>
+      <ul class="research-fields">
+        <li>Behavioral Economics</li>
+        <li>Experimental Economics</li>
+        <li>AI &amp; Organisations</li>
+      </ul>
+      <div class="hero-actions">
+        <a class="button primary" href="research.html">Explore my research <span aria-hidden="true">→</span></a>
+        <a class="button primary" href="media.html">Explore media articles <span aria-hidden="true">→</span></a>
+        <button class="button secondary" type="button" data-open-email>Get in touch</button>
+      </div>
+    </div>
 
-  <div class="intro-text">
-    <p><strong>My research fields:</strong></p>
-    <p><strong>Behavioral and Experimental Economics</strong></p>
-    <p><strong>AI and Organisational Economics</strong></p>
-    <br>
-    <p><strong>Contact: anna0128economics@163.com</strong></p>
-  </div>
-</section>
+    <div class="portrait-wrap">
+      <img src="la.png" alt="Portrait of Xiaomeng Chen" class="profile-photo">
+    </div>
+  </main>
 
-
+  <dialog class="email-dialog" id="email-dialog" aria-labelledby="email-dialog-title">
+    <div class="email-dialog-card">
+      <button class="dialog-close" type="button" data-close-email aria-label="Close contact dialog">×</button>
+      <div class="eyebrow">Contact</div>
+      <h2 id="email-dialog-title">Let’s connect</h2>
+      <p>You can reach me at:</p>
+      <div class="email-copy-row">
+        <code id="email-address">anna0128economics@163.com</code>
+        <button class="copy-button" type="button" data-copy-email>Copy</button>
+      </div>
+      <p class="copy-status" data-copy-status aria-live="polite"></p>
+    </div>
+  </dialog>
 </body>
 </html>
