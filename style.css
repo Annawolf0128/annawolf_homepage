@@ -522,6 +522,10 @@ p { margin: .35rem 0 .9rem; }
   margin-top: 1.8rem;
 }
 
+.about-content .image-row {
+  margin-top: .65rem;
+}
+
 .image-box {
   padding: .7rem;
   text-align: center;
