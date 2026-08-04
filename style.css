@@ -399,6 +399,11 @@ p { margin: .35rem 0 .9rem; }
   line-height: 1.55;
 }
 
+.research-item .media-platform {
+  color: var(--muted);
+  font-size: .9em;
+}
+
 .content > br {
   display: none;
 }
