@@ -505,6 +505,10 @@ p { margin: .35rem 0 .9rem; }
   font-weight: 700;
 }
 
+.content > .section-intro:first-child {
+  margin-top: 0;
+}
+
 .resource-subheading {
   margin: 2rem 0 .8rem;
   color: var(--wine);
