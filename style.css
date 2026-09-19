@@ -404,6 +404,20 @@ p { margin: .35rem 0 .9rem; }
   font-size: .9em;
 }
 
+.research-item .media-video {
+  font-size: .8em;
+}
+
+.research-item .media-video a {
+  color: var(--muted);
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.research-item .media-video a:hover {
+  text-decoration: underline;
+}
+
 .research-item .item-title {
   margin: 0;
   color: var(--wine);
