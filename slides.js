@@ -1,5 +1,5 @@
 // A simple visitor password gate, not access control for the public files.
-const slidesPasswordHash = '25c8f8f05433835cf3088c9b3ca1cf87afc31c6d080562f2e537052098ab5513';
+const slidesPasswordHash = '158a323a7ba44870f23d96f1516dd70aa48e9a72db4ebb026b0a89e212a208ab';
 
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.querySelector('#slides-form');
