@@ -427,7 +427,6 @@ p { margin: .35rem 0 .9rem; }
 
 a.research-collection {
   display: block;
-  margin-top: 3.25rem;
   color: var(--wine);
   font-weight: 700;
   text-decoration: none;
