@@ -399,6 +399,12 @@ p { margin: .35rem 0 .9rem; }
   line-height: 1.55;
 }
 
+.media-title-arrow {
+  display: inline-block;
+  font-size: .8em;
+  font-weight: 400;
+}
+
 .research-item .media-platform {
   color: var(--muted);
   font-size: .9em;
