@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Comic+Neue:wght@400;700&display=swap');
 
-@font-face {
-  font-family: 'ZCOOL KuaiLe Title';
-  src: url('fonts/zcool-kuaile-gender-title.ttf') format('truetype');
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-}
-
 :root {
   --rose-50: #fffafa;
   --rose-100: #f9eeee;
@@ -435,8 +427,6 @@ p { margin: .35rem 0 .9rem; }
 
 .research-item .title-zh {
   margin-top: .25rem;
-  font-family: 'ZCOOL KuaiLe Title', 'HanziPen SC', 'PingFang SC', sans-serif;
-  font-weight: 400;
 }
 
 a.research-collection {
